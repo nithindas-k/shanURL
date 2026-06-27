@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Navbar from '../components/layout/Navbar';
 import { useForm } from 'react-hook-form';
 import { Link, useNavigate } from 'react-router-dom';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -70,8 +71,10 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background px-4">
-      <Card className="w-full max-w-md border-border shadow-md">
+    <div className="min-h-screen bg-background flex flex-col">
+      <Navbar />
+      <div className="flex-1 flex items-center justify-center px-4 py-8">
+        <Card className="w-full max-w-md border-border shadow-md">
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl font-bold tracking-tight text-center">Login</CardTitle>
           <CardDescription className="text-center">
@@ -126,6 +129,7 @@ export default function LoginPage() {
           </CardFooter>
         </form>
       </Card>
+      </div>
     </div>
   );
 }

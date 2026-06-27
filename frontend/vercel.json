@@ -2,11 +2,11 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "https://YOUR_BACKEND_RENDER_URL/api/$1"
+      "dest": "https://shanurl.onrender.com/api/$1"
     },
     {
       "src": "/r/(.*)",
-      "dest": "https://YOUR_BACKEND_RENDER_URL/r/$1"
+      "dest": "https://shanurl.onrender.com/r/$1"
     },
     {
       "handle": "filesystem"

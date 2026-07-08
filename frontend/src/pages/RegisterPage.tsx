@@ -86,7 +86,7 @@ export default function RegisterPage() {
         <CardHeader className="space-y-1">
           <CardTitle className="text-2xl font-bold tracking-tight text-center">Create an account</CardTitle>
           <CardDescription className="text-center">
-            Enter your details to create your LinkSnip account
+            Enter your details to create your SnapURL account
           </CardDescription>
         </CardHeader>
         <form onSubmit={handleSubmit(onSubmit, onInvalid)}>

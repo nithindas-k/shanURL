@@ -16,7 +16,7 @@ import { useState } from 'react';
 
 export default function LandingPage() {
   const [copied, setCopied] = useState(false);
-  const mockShortLink = "linksnip.co/r/youtube";
+  const mockShortLink = "snapurl.co/r/youtube";
 
   const handleCopyMock = () => {
     navigator.clipboard.writeText(`https://${mockShortLink}`);
@@ -71,7 +71,7 @@ export default function LandingPage() {
               <div className="w-3 h-3 rounded-full bg-red-400/80" />
               <div className="w-3 h-3 rounded-full bg-yellow-400/80" />
               <div className="w-3 h-3 rounded-full bg-green-400/80" />
-              <span className="text-xs text-muted-foreground/60 pl-2 select-none font-mono">linksnip-demo.exe</span>
+              <span className="text-xs text-muted-foreground/60 pl-2 select-none font-mono">snapurl-demo.exe</span>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
@@ -222,7 +222,7 @@ export default function LandingPage() {
         <div className="max-w-screen-xl mx-auto flex flex-col sm:flex-row items-center justify-between text-muted-foreground text-sm">
           <div className="flex items-center space-x-2 mb-4 sm:mb-0">
             <Link2 className="h-4 w-4 text-primary" />
-            <span className="font-bold text-foreground">LinkSnip</span>
+            <span className="font-bold text-foreground">SnapURL</span>
             <span>&copy; {new Date().getFullYear()}</span>
           </div>
           <div className="flex space-x-6">

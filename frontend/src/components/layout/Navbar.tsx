@@ -29,7 +29,7 @@ export default function Navbar() {
           <div className="rounded-md bg-primary p-1.5 text-primary-foreground">
             <Link2 className="h-5 w-5" />
           </div>
-          <span className="font-bold text-xl tracking-tight">LinkSnip</span>
+          <span className="font-bold text-xl tracking-tight">SnapURL</span>
         </Link>
 
         {/* Desktop Navigation */}

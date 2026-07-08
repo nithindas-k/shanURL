@@ -127,7 +127,7 @@ export default function DashboardPage() {
   const cleanDisplayUrl = (urlStr: string) => {
     return urlStr
       .replace(/^https?:\/\//, '')
-      .replace(/^(localhost:\d+|127\.0\.0\.1:\d+)/, 'linksnip.co');
+      .replace(/^(localhost:\d+|127\.0\.0\.1:\d+)/, 'snapurl.co');
   };
 
   const getFullShortUrl = (shortCode: string) => {
